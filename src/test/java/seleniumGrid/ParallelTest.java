@@ -37,6 +37,7 @@ public class ParallelTest
 	  }else if(bname.equalsIgnoreCase("edge"))
 	  {
 		  EdgeOptions options=new EdgeOptions();
+		  System.out.println("Edge is executing");
 		  driver=new RemoteWebDriver(new URL("http://localhost:4444/"),options);
 		  System.out.println("Remote connection is with Edge is done!");
 
