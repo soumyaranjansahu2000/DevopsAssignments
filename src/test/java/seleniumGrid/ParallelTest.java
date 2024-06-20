@@ -23,6 +23,7 @@ public class ParallelTest
 	  if(bname.equalsIgnoreCase("chrome"))
 	  {
 		  ChromeOptions options=new ChromeOptions();
+		  System.out.println("Chrome is executing");
 		  driver=new RemoteWebDriver(new URL("http://localhost:4444/"),options);
 		  System.out.println("Remote connection is with Chrome is done!");
 
