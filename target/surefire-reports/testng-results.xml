@@ -2,18 +2,18 @@
 <testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-20T14:03:22 IST" name="Surefire suite" finished-at="2024-06-20T14:03:49 IST" duration-ms="26645">
+  <suite started-at="2024-06-20T14:07:20 IST" name="Surefire suite" finished-at="2024-06-20T14:07:41 IST" duration-ms="21412">
     <groups>
     </groups>
-    <test started-at="2024-06-20T14:03:22 IST" name="Surefire test" finished-at="2024-06-20T14:03:49 IST" duration-ms="26645">
+    <test started-at="2024-06-20T14:07:20 IST" name="Surefire test" finished-at="2024-06-20T14:07:41 IST" duration-ms="21412">
       <class name="seleniumGrid.ChromeTest">
-        <test-method signature="testGridSetup()[pri:0, instance:seleniumGrid.ChromeTest@436a4e4b]" started-at="2024-06-20T14:03:22 IST" name="testGridSetup" finished-at="2024-06-20T14:03:49 IST" duration-ms="26578" status="PASS">
+        <test-method signature="testGridSetup()[pri:0, instance:seleniumGrid.ChromeTest@436a4e4b]" started-at="2024-06-20T14:07:20 IST" name="testGridSetup" finished-at="2024-06-20T14:07:41 IST" duration-ms="21339" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGridSetup -->
       </class> <!-- seleniumGrid.ChromeTest -->
       <class name="seleniumGrid.ParallelTest">
-        <test-method signature="testGrid(java.lang.String)[pri:0, instance:seleniumGrid.ParallelTest@3e3047e6]" started-at="2024-06-20T14:03:49 IST" name="testGrid" finished-at="2024-06-20T14:03:49 IST" duration-ms="0" status="FAIL">
+        <test-method signature="testGrid(java.lang.String)[pri:0, instance:seleniumGrid.ParallelTest@3e3047e6]" started-at="2024-06-20T14:07:41 IST" name="testGrid" finished-at="2024-06-20T14:07:41 IST" duration-ms="0" status="FAIL">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
