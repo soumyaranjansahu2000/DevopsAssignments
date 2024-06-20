@@ -30,6 +30,7 @@ public class ParallelTest
 	  }else if(bname.equalsIgnoreCase("firefox"))
 	  {
 		  FirefoxOptions options=new  FirefoxOptions();
+		  System.out.println("Firefox is executing");
 		  driver=new RemoteWebDriver(new URL("http://localhost:4444/"),options);
 		  System.out.println("Remote connection is with Firefox is done!");
 
